@@ -304,3 +304,95 @@ aside{
 .rating{
     margin-top:10px;
 }
+.Activité{
+    
+    margin-top: 50px;
+}
+.titractivité{
+    font-size: 0.7em;
+}
+.carteactivité{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blocentier{
+    background-color: white;
+    width:23%;
+    height: 510px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.imgblocentier{
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.descripactivité{
+    margin:20px;
+}
+.deuximages{
+    display: flex;
+    flex-direction: column;
+    width:23%;
+    justify-content: space-between;
+}
+.blocdemie{
+    background-color: white;
+    height: 270px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.imgdemiebloc{
+    width: 100%;
+    object-fit: cover;
+    height: 210px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.blocdemie2{
+    background-color: white;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.imgdemiebloc2{
+    width: 100%;
+    object-fit: cover;
+    height: 140px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.carteactivité a{
+    color: black;
+    text-decoration: none;
+}
+footer{
+    background-color:#F2F2F2;
+    margin-top:50px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer ul{
+    list-style-type: none;
+    padding-left:0px ;
+}
+
+.footertxt{
+    
+    font-size:18px;
+    line-height: 30px;
+    color: black;
+}
+.nosheberegement{
+    margin-left: 400px;
+}
