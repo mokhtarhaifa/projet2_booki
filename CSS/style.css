@@ -1,578 +1,6 @@
-
+/* global*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@media screen and (min-width: 992px)
-{   
-    .logonav{
-        display: flex;
-        justify-content: space-between;
-    }
-    .logoimg{
-        height: 50px;
-        margin: 30px 40px; 
-        padding-top: 5px;
-    }
-    nav{
-        margin-top:-16px;
-    }
-    nav li{
-        margin-left: 20px; 
-    }
-    .lienhebrg {
-        border-top: 4px solid white;
-        padding-top:42px;
-        width: 150px;
-        text-align: center;
-    }
-    .lienhebrg:hover{
-        color:#0065FC;
-        border-top: 4px solid ;
-        padding-top:42px;
-    }
-    .afficherplus{
-        margin-bottom: 30px;
-        font-size: 1.1em;
-        
-    }
-    .titres {
-        font-size: 1.5em;
-        margin-top: 20px;
-    }
-    .part1 p {
-    
-        margin-bottom: 30px;
-    }
-    
-    .filtres{
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px; 
-    }
-    .stylbutton{
-        background-color: white;
-        border-radius: 25px;
-        border: 3px solid #F2F2F2;
-        margin-left:30px;
-        font-weight: bold;
-        padding-right:15px;
-        height: 50px; 
-    }
-    .stylbutton .filtreText{
-    
-        padding-left:5px;
-    }
-    .alert{
-        display: flex;
-        justify-content: flex-start;
-        margin-top: 15px;
-    }
-    .part2{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    aside{
-        background-color: #F2F2F2;
-        width: 35%;
-        border-radius: 20px;
-    }
-    .hebergement{
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        width:60%;
-        display: flex;
-        flex-direction: column;
-        padding-left: 2%;
-        padding-top: 0.5%;
-    }
-    .piedepg{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 80%;
-    }
-    .carte{
-        width:30%;
-        background-color: white;
-        height: auto;
-        border-radius: 20px;
-        margin-right: 2.3%;
-        margin-bottom:50px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        text-decoration: none; 
-        color: black;
-        padding: 5px;
-        
-    }
-    .carteactivité{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-    }
-    .blocentier{
-        background-color: white;
-        width:22%;
-        height: 380px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .imgblocentier{
-        width: 100%;
-        object-fit: cover;
-        height: 330px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    
-    }
-    .deuximages{
-        display: flex;
-        flex-direction: column;
-        width:24%;
-        justify-content: space-between;
-    }
-    .blocdemie{
-        background-color: white;
-        height: 180px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .imgdemiebloc{
-        width: 100%;
-        object-fit: cover;
-        height: 130px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .blocdemie2{
-        background-color: white;
-        height: 150px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-    .imgdemiebloc2{
-        width: 100%;
-        object-fit: cover;
-        height: 90px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .titrecart{
-        font-size: 1em;
-    }
-    .textp{
-        
-        margin-left: 10px;
-    }
-    .cerclei{
-        margin-top: 10px;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        border:1px solid gray;
-        padding: 5px;
-        text-align: center;
-        color: #0065FC;
-        font-size: 13px;
-    }
-    
-    
-}
-@media all and (min-width: 768px) and (max-width: 991px){
-    .logonav{
-        display: flex;
-        justify-content: space-between;
-        margin-right: 50px;
-    }
-    nav{
-        margin-top:-16px;
-       
-    }
-    nav li{
-        margin-left: 20px; 
-    }
-    .logoimg{
-        height: 50px;
-        margin: 30px 40px; 
-        padding-top: 5px;
-    }
-    .lienhebrg {
-        border-top: 4px solid white;
-        padding-top:42px;
-        text-align: center;
-    }
-    .lienhebrg:hover{
-        color:#0065FC;
-        border-top: 4px solid ;
-        padding-top:42px;
-    }
-    .titres {
-        font-size: 1.3em;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .part1 p {
-    
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    .formrecherche{
-        
-        justify-content: center;
-    }
-    .filtres{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        text-align: center; 
-        flex-wrap: wrap;
-        
-    }
-    .stylbutton{
-        background-color: white;
-        border-radius: 25px;
-        border: 3px solid #F2F2F2;
-        margin-left:10px;
-        font-weight: bold;
-        padding-right:15px;
-        height: 50px;
-        margin-bottom: 15px;
-        
-    }
-    .stylbutton .filtreText{
-        font-size: 0.8em;
-        padding-left:5px;
-    }
-    
-    .alert{
-        display: flex;
-        justify-content: center;
-    }
-    .part2{
-        display: flex;        
-        flex-direction: column-reverse; 
-    }
-    aside{
-        background-color: #F2F2F2;
-        width: 100%;
-        border-radius: 20px;
-        margin-bottom: 30px;
-    }
-    .textp{
-        
-        margin-left: 10px;
-    }
-    .cerclei{
-        margin-top: 10px;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        border:1px solid gray;
-        padding: 5px;
-        text-align: center;
-        color: #0065FC;
-        font-size: 13px;
-    }
-    .hebergement{
-        
-        border-radius: 20px;
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        padding-left: 3%;
-        padding-top: 0.5%;
-    }
-    .afficherplus{
-        margin-bottom: 30px;
-        margin-left: 5px;
-        font-size: 1.1em;
-        
-    }
-    .piedepg{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    }
-    .carte{
-        width:45%;
-        background-color: white;
-        height: auto;
-        border-radius: 20px;
-        margin-right: 2.3%;
-        margin-bottom:50px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        text-decoration: none; 
-        color: black;
-        padding: 5px;
-        
-    }
-    .carteactivité{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
-    }
-    .blocentier{
-        background-color: white;
-        width:23%;
-        height: 380px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .imgblocentier{
-        width: 100%;
-        object-fit: cover;
-        height: 320px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        
-    }
-    .deuximages{
-        display: flex;
-        flex-direction: column;
-        width:23%;
-        justify-content: space-between;
-    }
-    .blocdemie{
-        background-color: white;
-        height: 180;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-    
-    .imgdemiebloc{
-        width: 100%;
-        object-fit: cover;
-        height: 120px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .blocdemie2{
-        background-color: white;
-        height: 150px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        
-        
-    }
-    .imgdemiebloc2{
-        width: 100%;
-        object-fit: cover;
-        height: 85px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .titrecart{
-        font-size: 1.3em;
-    }
-}
-@media (max-width: 767px){
-    
-    .logonav{
-        display: flex;
-        flex-direction: column;
-        padding-top: 20px;
-        margin:0;
-    }
-    nav{
-        margin:0px;
-        width: 100%;
-    }
-    nav li{
-        margin-left: 0px; 
-    }
-    .logoimg{
-        height:30%;
-        width:30%;
-        text-align:center;
-        margin:auto;  
-         
-    }
-    .lienhebrg {
-        border-bottom: 4px solid #F2F2F2;
-        padding-bottom:15px;
-        width: 100%;
-        text-align: center;
-        margin-top: 15px;
-    }
-    .lienhebrg:hover{
-        color:#0065FC;
-        border-bottom: 4px solid ;
-        padding-bottom:15px;
-    }
-    .titres {
-        font-size: 1.5em;
-        margin-top: 20px;
-    }
-    .part1 p {
-        font-size: 1em;
-        margin-bottom: 30px;
-    }
-    
-    .filtres{
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px; 
-    }
-    .stylbutton{
-        background-color: white;
-        border-radius: 25px;
-        border: 3px solid #F2F2F2;
-        margin-left:10px;
-        font-weight: bold;
-        padding-right:15px;
-        height: 50px;
-        margin-bottom: 15px;
-        
-    }
-    .alert{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    .part2{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    aside{
-        background-color: #F2F2F2;
-        width: 100%;
-        border-radius: 20px;
-    }
-    .hebergement{
-       
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        padding-left: 2%;
-        padding-top: 0.5%;
-    }
-    .carte{
-        width:100%;
-        background-color: white;
-        height: auto;
-        border-radius: 20px;
-        margin-right: 2.3%;
-        margin-bottom:50px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        text-decoration: none; 
-        color: black;
-        padding: 5px;
-        
-    }
-    .afficherplus{ 
-        font-size: 1.1em;
-    }
-    .carteactivité{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .blocentier{
-        background-color: white;
-        width:100%;
-        height: 200px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        margin-top: 25px;
-        
-    }
-    .imgblocentier{
-        width: 100%;
-        object-fit: cover;
-        height: 150px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    
-    }
-    .deuximages{
-        display: flex;
-        flex-direction: column;
-        width:100%;
-        justify-content: space-between;
-        
-    }
-    .blocdemie{
-        background-color: white;
-        height: 200px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        margin-top: 25px;
-        
-    }
-    
-    .imgdemiebloc{
-        width: 100%;
-        object-fit: cover;
-        height: 150px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .blocdemie2{
-        background-color: white;
-        height: 200px;
-        border-radius: 20px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        margin-top: 25px;
-        
-    }
-    .imgdemiebloc2{
-        width: 100%;
-        object-fit: cover;
-        height: 150px;
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-    }
-    .piedepg{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .textp{
-        margin: -10px;
-        margin-left: 10px;
-    }
-    .cerclei{
-        
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        border:1px solid gray;
-        padding: 5px;
-        text-align: center;
-        color: #0065FC;
-        font-size: 13px;
-    }
-    .titrecart{
-        font-size: 1.1em;
-    }
-}
-    
+   
 *, *:after, *:before{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -582,14 +10,12 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-
-.page{
-    margin: 20px 40px; 
-}
-.formrecherche{
-    display: flex;
+.container{
+    width: 100%; 
 }
 
+
+/* header*/
 nav ul{
     padding:0px;
     display:flex;
@@ -607,20 +33,13 @@ nav a:hover{
     color: #0065FC;
 }
 
+
+/*search bar*/
 .part1{
     margin-bottom: 20px;
 }
-
-.titrfltr{
-    font-size: 1.2em;  
-}
-
-.iconmap{
-    
-    font-size: 20px;
-    padding: 15px;
-    /*display: inline-block;*/
-    /*justify-content: center;*/
+.formrsearch{
+    display: flex;
 }
 .iconlab{
     background-color: #F2F2F2;
@@ -629,16 +48,22 @@ nav a:hover{
     border-top-left-radius:15px;
     border-bottom-left-radius:15px;
 }
-input::placeholder{
-    color:black;
-    font-weight: bold;
-    padding-left: 15px;
-}
 .inputxt{
     border-top:1px solid #F2F2F2;
     border-bottom:1px solid #F2F2F2;
     border-left:0px;
     border-right:0px;
+    width:210px;
+}
+.iconmap{
+    font-size: 20px;
+    padding: 15px;
+
+}
+input::placeholder{
+    color:black;
+    font-weight: bold;
+    padding-left: 15px;
 }
 .inputb{
     background-color:#0065FC;
@@ -651,67 +76,88 @@ input::placeholder{
 }
 
 
-
-
-
-
-.icofltr{
-    background-color:#DEEBFF; 
-    border-radius: 50%;
-    margin-left: -15px;
-    margin-top: -3.5px;
-    padding:15px;
-    width:50px;
-    text-align: center; 
+/*filtres*/
+.titlefiltr{
+    font-size: 1.2em;  
 }
-.container{
-    width: 100%; 
+.stylbutton{
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #F2F2F2;
+    margin-left:15px;
+    font-weight: bold;
+    padding-right:15px;
+    height: 50px; 
+    margin-bottom: 15px;
 }
-
+.stylbutton .filtreText{
+  padding-left:5px;
+}
 .stylbutton .fas{
     color: #0065FC;
     font-size: 18px;
 }
 .stylbutton:hover{
-    box-shadow: #0065FC 1px 1px 1px 1px;
+    background-color:#DEEBFF ;
     color: #0065FC;
 }
 
 .stylbutton .filtreText{
-    
     padding-left:5px;
 }
+.iconfiltre{
+    background-color:#DEEBFF; 
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -2px;
+    padding:15px;
+    width:50px;
+    text-align: center; 
+}
+.alert{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.cerclei{
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    border:1px solid gray;
+    padding: 5px;
+    text-align: center;
+    color: #0065FC;
+    font-size: 13px;
+}
+.textp{
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
 
 
-
-
-
-
+/*Heberegemnt*/
 .titreheberg{
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 .cartes{
-    padding-top:0.5%;
+    padding-top:0.6%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-right: 2%;
 }
-
-.description h1{
-    font-size: 1.2em;
-    margin: 4px;
+.carte{
+    background-color: white;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: none; 
+    color: black;
+    padding: 5px;
+    margin-right: 2.3%;
 }
-.description p{
-    font-size: 1em;
-    margin: 4px;
-}
-.icons{
-    margin: 4px;
-    
-}
-
 .imagecarteheberg{
     width: 100%;
     object-fit: cover;
@@ -720,29 +166,28 @@ input::placeholder{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
-.afficherplus a{
-    font-weight: bold;
-    text-decoration:none; 
-    color: black;
-    
-}
 .description{
-    padding-left:10px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
+    height: 40%;
+    padding-left: 12px;
+    padding-top: 10px;
 }
-
-
-p span{
-    font-weight: bold;
-    margin-top:1px;
+.cartetitle{
+    flex-grow: 1;
+    font-size: 0.9em;
 }
-.sous-titre{
-    font-weight: bold;
-    font-size: 20px;
+.textfixed{
+    margin:0px;
+}
+.tarif{
+    flex-grow: 1;
+    font-size: 0.9em;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: auto;
 }
 .couleurbleu{
     color:#0065FC;
@@ -750,92 +195,130 @@ p span{
 .couleurgris{
     color: #F2F2F2;
 }
-
-
-.pluspopulaire{
-    display: flex;
-    flex-direction: column;
-    width:90%;
-    margin-left:5%;
-    margin-top: 2%;
+p span{
+    font-weight: bold;
+    margin-top:1px;
 }
-.cartespopulaire{
-    width:98%;
-    background-color: white;
-    height:180px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin-left: 2%;
-    margin-bottom: 25px;
-    margin-top:3px;
-}
-.imagpopulaire{
-    width: 40%;
-    object-fit: cover;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding:5px;
-}
-.titrepopulaire{
-    font-size: 0.7em;
-    display: flex;
-    justify-content: space-between;
+.afficherplus a{
+    font-weight: bold;
+    text-decoration:none; 
+    color: black;
     
 }
 
+
+/*Pluspopolaire*/
+.pluspopulaire{
+    display: flex;
+    flex-direction: column;
+    width:85%;
+    margin-left:7%;
+    padding-top:2.5%;
+}
+.titrepopulaire{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;  
+}
 .iconpopulaire{
     font-size: 2em;
     margin-top: 15px;
 }
-
-.imgcart{
+.cartepopulaire{
+    background-color: white;
+    width:100%;
+    height:auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: flex;
     flex-direction: row;
-}
-.lienpopulaire {
     text-decoration: none;
     color: black;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top:4px;
 }
-
-.descrippopulaire{
+.imgcarte{
+    width: 150px;
+    height: 150px;
+}
+.descriptionpopulaire{
+    margin: 15px;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 170px;
-    
+    height: auto;  
 }
-
+.imagpopulaire{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.imgcart{
+    flex-grow: 1;
+}
+.titlepopulaire{
+    font-size: 0.9em;
+    flex-grow: 1;
+}
 .tarifpopulaire{
-    margin-top:5px
-}
-.rating{
-    display: flex;
-    flex-direction: row;
-    margin-top: auto;
+    font-size: 0.9em;
+    flex-grow: 2;
 }
 
 
-.Activité{
+/*block activity*/
+.activity{
     margin-top: 50px;
 }
-.titractivité{
-    font-size: 0.7em;
+.titractivity{
+    font-size: 0.8em;
 }
-
-
-
-.descripactivité{
+.carteactivity a{
+    color: black;
+    text-decoration: none;
+}
+.descripactivity{
     padding: 0px 20px;
     font-size:1em;
 }
-
-.carteactivité a{
-    color: black;
-    text-decoration: none;
+.imgblocentier{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.imgdemiebloc{
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 130px;
+}
+.blocdemie{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+}
+.blocdemie2{
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;  
+}
+.imgdemiebloc2{
+    width: 100%;
+    object-fit: cover;
+    height: 90px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
+/*Footer*/
 footer{
     margin-top:50px;
     padding: 50px;

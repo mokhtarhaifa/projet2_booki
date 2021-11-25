@@ -1,0 +1,122 @@
+@media screen and (min-width: 992px)
+{   
+  /*header*/  
+    .logonav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .logoimg{
+        margin-top: 42px;
+        margin-left:50px;
+    }
+    .logo{
+        height:50%; 
+    }
+    nav{
+        margin-top:-16px;
+    }
+    nav li{
+        margin-left: 20px; 
+    }
+    .linkhebrg{
+        border-top: 4px solid white;
+        padding-top:42px;
+        width: 150px;
+        text-align: center;
+    }
+    .linkhebrg:hover{
+        color:#0065FC;
+        border-top: 4px solid ;
+        padding-top:42px;
+    }
+
+ /*search bar*/
+    .page{
+        margin: 10px 40px; 
+    }
+    .title {
+        font-size: 1.5em;
+    }
+    .part1 p {
+        margin-bottom: 30px;
+    }
+    .inputiconsearch{
+        display: none;
+    }
+ /*Fitre*/
+    .filtres{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;   
+    }
+    .formfiltr{
+        margin-top: 5px;
+    }
+
+/*Hebergement*/
+    .part2{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .hebergement{
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        width:60%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 2%;
+        padding-top: 0.5%;
+    }
+    .carte{
+        width:31%;
+        margin-bottom:30px; 
+    }
+
+    .afficherplus{
+        margin-bottom:20px ;
+        font-size: 1.1em;
+    }
+ /*populaire*/
+    aside{
+        background-color: #F2F2F2;
+        width: 37%;
+        border-radius: 20px;
+    }
+    
+/*block activity*/
+    .carteactivity{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .blocentier{
+        background-color: white;
+        width:22%;
+        height: 380px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imgblocentier{
+        height: 330px;
+    }
+    .deuximages{
+        display: flex;
+        flex-direction: column;
+        width:24%;
+        justify-content: space-between;
+    }
+    
+/*Footer*/
+    .piedepg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    } 
+}
